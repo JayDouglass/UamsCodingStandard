@@ -10,12 +10,14 @@ These standards are mostly copying Microsoft's internal coding standards.
 * Do not use hungarian notation (prefixing variables with the data type): strName, numAge, etc. 
 * Do not pluralize class names. A class is a "blueprint" for a single instance of an entity.
 
+```
 public class EmployeeRequest {
 	private int somethingPrivate;
 	public int Id { get; set; }
 	public void NormalizeName() { }
 	private void somethingPrivate() { }
 }
+```
 
 # Coding do's and don'ts
 * One file per class
