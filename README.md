@@ -1,4 +1,4 @@
-C# coding standards
+# C# coding standards
 These standards are mostly copying Microsoft's internal coding standards.
 
 # Naming conventions
